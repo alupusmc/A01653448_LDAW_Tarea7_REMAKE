@@ -1,0 +1,20 @@
+.clear,.fill{
+    padding: 10px 0;
+    width: 160px !important;
+    display: block;
+    text-align: center;
+    border: 1px solid #1724ab;
+    cursor: pointer;
+
+}
+
+.clear{
+    color: #1724ab;
+}
+
+.fill{
+    background-color: #1724ab;
+    color: white;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,71 @@
+.filtro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:stretch;
+  }
+  
+  .col-6 {
+    flex-basis: 16.66%;
+    width: 16.66%;
+  }
+  
+  .col-4 {
+    flex-basis: 25%;
+    width: 25%;
+  }
+  
+  .button{
+      border: 1px solid  #1724ab;
+      padding: 5px 5px;
+      transition: all .5s ease;
+      cursor: pointer;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+  .button:hover{
+      background-color: rgba(23, 36, 171,.1);
+  }
+  
+  .button.selected{
+      background-color: rgba(23, 36, 171,.3);
+  }
+  
+  .title {
+    flex-basis: 100%;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .title span {
+      font-size: 17px;
+      color: white;
+      background-color: #1724ab;
+      padding: 0px 5px;
+      margin-left: 6px !important;
+      position: relative;
+  }
+  
+  .tooltip {
+    padding: 10px 15px;
+    color: black;
+    border: 1px  solid black;
+    
+    display: block;
+    position: absolute;
+    top: -8px;
+    width: 200px;
+    left: 170%;
+    opacity: 0;
+    transition: all 0.7s ease;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .title:hover .tooltip{
+      opacity: 1;
+  }
+  
